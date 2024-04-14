@@ -8,6 +8,9 @@ const port = 3000; // Port sur lequel le serveur écoutera
 
 // Définir le dossier contenant les fichiers statiques
 app.use(express.static(path.join(__dirname)));
+app.use(express.static(path.join(__dirname, 'build')));
+// Middleware pour servir les fichiers statiques depuis /static
+app.use(express.static(path.join(__dirname, 'build', 'static')));
 
 // Définir une route pour le fichier index.html
 app.get('/', (req, res) => {
