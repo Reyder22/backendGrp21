@@ -11,10 +11,11 @@ app.use(express.static(path.join(__dirname)));
 
 // Définir une route pour le fichier index.html
 app.get('/', (req, res) => {
+  res.setHeader('X-Content-Type-Options', 'nosniff');
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
 // Lancer le serveur
 app.listen(port, () => {
-  console.log(`Serveur démarré sur http://localhost:${port}`);
+  console.log(`Serveur démarré`);
 });
