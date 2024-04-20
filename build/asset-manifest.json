@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.083d407f.css",
-    "main.js": "./static/js/main.e39cb7de.js",
+    "main.css": "./static/css/main.44cc542a.css",
+    "main.js": "./static/js/main.b4aa4b36.js",
     "static/media/music.mp3": "./static/media/music.af3cf6ee4383de5054d7.mp3",
     "static/media/mao.mp4": "./static/media/mao.d1e87b5aebfa3fd7d344.mp4",
     "static/media/spiderman.mp4": "./static/media/spiderman.19184042db055515307e.mp4",
@@ -246,16 +246,15 @@
     "static/media/MB-empty.svg": "./static/media/MB-empty.e5b50130d1e17cee14d4.svg",
     "static/media/MB-repair.svg": "./static/media/MB-repair.0363124aa082c452ad3d.svg",
     "static/media/MB-crash.svg": "./static/media/MB-crash.7db8fa1385089ffd21e4.svg",
-    "static/media/user.svg": "./static/media/user.b8428432db0267d9f94e70112e78d5e9.svg",
     "static/media/MB-roll.svg": "./static/media/MB-roll.68253e21b6efd6aede17.svg",
     "static/media/MB-stop.svg": "./static/media/MB-stop.3534b193b7b604780d57.svg",
     "index.html": "./index.html",
     "static/media/MB-back.svg": "./static/media/MB-back.c74b40073711f2d42cee.svg",
-    "main.083d407f.css.map": "./static/css/main.083d407f.css.map",
-    "main.e39cb7de.js.map": "./static/js/main.e39cb7de.js.map"
+    "main.44cc542a.css.map": "./static/css/main.44cc542a.css.map",
+    "main.b4aa4b36.js.map": "./static/js/main.b4aa4b36.js.map"
   },
   "entrypoints": [
-    "static/css/main.083d407f.css",
-    "static/js/main.e39cb7de.js"
+    "static/css/main.44cc542a.css",
+    "static/js/main.b4aa4b36.js"
   ]
 }
